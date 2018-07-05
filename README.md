@@ -15,3 +15,25 @@ Application Layer Protocol:
 * ClientListener.java recieves responses from the server and displays them
 * MTServer.java listens for client connections and creates a ClientHandler for each new client
 * ClientHandler.java recieves messages from a client and relays it to the other clients.
+
+## build commands:
+```
+$ cd game
+$ javac *.java
+```
+Then, open two additional command line windows (a total of three) and run the following in the first:
+```
+$ java GameServer
+```
+In each of the other windows, run the following:
+```
+$ java GameClient
+```
+The server window should output the following:
+```
+Waiting for player connections on port 7654.
+Player 1 connected successfully.
+Player 2 connected successfully.
+Game running...
+```
+At which point the game can begin.
