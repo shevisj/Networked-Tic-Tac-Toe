@@ -1,7 +1,7 @@
 # Multi-Threaded Tic Tac Toe (2-player)
 This repo contains programs to run a 2-player tic-tac-toe game. It will contain a game server program as well as a game client program. The clients will be able to play eachother over the network through the server.
 
-Git Primary Repo: https://github.com/johns612/mt-tic-tac-toe.git
+Git Primary Repo: https://github.com/shevisj/Networked-Tic-Tac-Toe.git
 
 Team Member Roles:
 * Shevis Johnson: develop entire program
