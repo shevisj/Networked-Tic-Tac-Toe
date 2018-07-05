@@ -21,7 +21,7 @@ Application Layer Protocol:
 $ cd game
 $ javac *.java
 ```
-Then, open two additional command line windows (a total of three) and run the following in the first:
+Then, open two additional command line windows in the same directory (a total of three) and run the following in the first:
 ```
 $ java GameServer
 ```
